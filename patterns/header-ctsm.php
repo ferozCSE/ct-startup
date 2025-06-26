@@ -20,8 +20,9 @@
         <!-- wp:site-logo {"width":50,"className":"text-white"} /-->
 
         <!-- wp:paragraph {"className":"inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
-        <p class="inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75">SOCIAL
-            MARKETING</p>
+        <p class="inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75">
+            <?php esc_html_e( 'SOCIAL MARKETING', 'ct-startup' ); ?>
+        </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:group {"layout":{"type":"constrained","justifyContent":"right"}} -->

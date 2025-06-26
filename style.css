@@ -615,12 +615,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .block {
@@ -690,16 +690,8 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
 }
 
 .rounded-sm {

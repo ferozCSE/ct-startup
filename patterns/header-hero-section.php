@@ -20,7 +20,8 @@
         <!-- wp:site-logo {"width":50,"className":"text-white"} /-->
 
         <!-- wp:paragraph {"className":"inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
-        <p class="inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75">SOCIAL
+        <p class="inline-flex items-center gap-4 text-lg font-bold tracking-wide text-white hover:opacity-75">
+            <?php esc_html_e( 'About', 'ct-startup' ); ?>SOCIAL
             MARKETING</p>
         <!-- /wp:paragraph -->
 
@@ -40,12 +41,14 @@
             <div class="wp-block-group">
                 <!-- wp:heading {"textAlign":"center","className":"mb-4 text-3xl font-extrabold text-balance text-white"} -->
                 <h2 class="wp-block-heading has-text-align-center mb-4 text-3xl font-extrabold text-balance text-white">
-                    Social media marketing for your online business</h2>
+                    <?php esc_html_e( 'Social media marketing for your online business', 'ct-startup' ); ?>
+                </h2>
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"level":3,"className":"mx-auto text-lg font-medium text-gray-400"} -->
-                <h3 class="wp-block-heading mx-auto text-lg font-medium text-gray-400">Automate your marketing efforts
-                    today and get more clients for your business. 7-day trial is now available to check it out.</h3>
+                <h3 class="wp-block-heading mx-auto text-lg font-medium text-gray-400">
+                    <?php esc_html_e( 'Automate your marketing efforts today and get more clients for your business. 7-day trial is now available to check it out.', 'ct-startup' ); ?>
+                </h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:group {"className":"flex flex-wrap justify-center gap-4 pt-10 pb-16","layout":{"type":"constrained"}} -->
@@ -56,16 +59,16 @@
                         <div class="necessary-block-button align-center alignundefined"
                             style="width:calc(10vw - 1.2rem * .5);height:auto"><a target="_self"
                                 class="wp-block-necessary-block-button-block has-text-align-center button button-info align-center inline-flex items-center justify-center gap-2 rounded-full border border-blue-800 bg-blue-800 px-6 py-4 leading-6 font-semibold text-white hover:border-blue-700/50 hover:bg-blue-700/50 hover:text-white focus:ring-3 focus:ring-blue-500/50 focus:outline-hidden active:border-blue-700 active:bg-blue-700 has-small-font-size"
-                                style="--button-hover-color:#ffffff;--button-hover-bg:undefined;text-align:center;text-decoration:none">→
-                                Get Started</a></div>
+                                style="--button-hover-color:#ffffff;--button-hover-bg:undefined;text-align:center;text-decoration:none"><?php esc_html_e( '→ Get Started', 'ct-startup' ); ?>
+                            </a></div>
                         <!-- /wp:necessary-block/button-block -->
 
                         <!-- wp:necessary-block/button-block {"buttonText":" Live Demo","buttonWidth":"10vw","buttonType":"info","className":"inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-4 leading-6 font-semibold text-white hover:border-gray-700/50 hover:bg-gray-700/50 hover:text-white focus:ring-3 focus:ring-gray-500/25 focus:outline-hidden active:border-gray-700 active:bg-gray-700","style":{"typography":{"textAlign":"center"}},"fontSize":"small"} -->
                         <div class="necessary-block-button align-center alignundefined"
                             style="width:calc(10vw - 1.2rem * .5);height:auto"><a target="_self"
                                 class="wp-block-necessary-block-button-block has-text-align-center button button-info align-center inline-flex items-center justify-center gap-2 rounded-full border border-gray-800 bg-gray-800 px-6 py-4 leading-6 font-semibold text-white hover:border-gray-700/50 hover:bg-gray-700/50 hover:text-white focus:ring-3 focus:ring-gray-500/25 focus:outline-hidden active:border-gray-700 active:bg-gray-700 has-small-font-size"
-                                style="--button-hover-color:#ffffff;--button-hover-bg:undefined;text-align:center;text-decoration:none">
-                                Live Demo</a></div>
+                                style="--button-hover-color:#ffffff;--button-hover-bg:undefined;text-align:center;text-decoration:none"><?php esc_html_e( 'Live Demo', 'ct-startup' ); ?>
+                            </a></div>
                         <!-- /wp:necessary-block/button-block -->
                     </div>
                     <!-- /wp:necessary-block/buttons-block -->
@@ -76,7 +79,8 @@
                 <div class="wp-block-group relative mx-5 -mb-20 rounded-sm bg-white p-2 shadow-lg sm:-mb-40 lg:mx-32">
                     <!-- wp:image {"id":5695,"sizeSlug":"full","linkDestination":"none","className":"mx-auto aspect-3/2 w-full rounded-sm object-cover"} -->
                     <figure class="wp-block-image size-full mx-auto aspect-3/2 w-full rounded-sm object-cover"><img
-                            src="http://localhost/wp-content/uploads/2025/06/ct-sm.jpg" alt="" class="wp-image-5695" />
+                            src="<?php echo  get_stylesheet_directory_uri() . '/images/ct-sm.jpg'; ?>" alt=""
+                            class="wp-image-5695" />
                     </figure>
                     <!-- /wp:image -->
                 </div>

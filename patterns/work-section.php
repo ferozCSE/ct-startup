@@ -17,7 +17,8 @@
     style="background-color:#1e3a8a;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
     <!-- wp:heading {"textAlign":"center","align":"wide","style":{"typography":{"fontSize":"36px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"bottom":"40px"}}},"textColor":"white"} -->
     <h2 class="wp-block-heading alignwide has-text-align-center has-white-color has-text-color"
-        style="margin-bottom:40px;font-size:36px;font-style:normal;font-weight:700">How it works?</h2>
+        style="margin-bottom:40px;font-size:36px;font-style:normal;font-weight:700">
+        <?php esc_html_e( 'How it works?', 'ct-startup' ); ?></h2>
     <!-- /wp:heading -->
 
     <!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|20"}}}} -->
@@ -30,20 +31,21 @@
                 style="border-radius:12px;background-color:#2b5ea9;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
                 <!-- wp:image {"id":5640,"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full is-resized"><img
-                        src="http://localhost/wp-content/uploads/2025/06/desktop-icon.png" alt="" class="wp-image-5640"
-                        style="width:60px" /></figure>
+                        src="<?php echo  get_stylesheet_directory_uri() . '/images/desktop-icon.png'; ?>" alt=""
+                        class="wp-image-5640" style="width:60px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"top":"16px","bottom":"8px"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-left has-white-color has-text-color"
-                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">1. Get
-                    your custom dashboard</h3>
+                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">
+                    <?php esc_html_e( '1. Get your custom dashboard', 'ct-startup' ); ?>
+                </h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <p class="has-text-align-left has-white-color has-text-color" style="margin-bottom:0;font-size:14px">
-                    Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi
-                    nec lectus. Nam commodo turpis id lectus scelerisque vulputate.</p>
+                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo minec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                </p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -58,20 +60,21 @@
                 style="border-radius:12px;background-color:#2b5ea9;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
                 <!-- wp:image {"id":5639,"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full is-resized"><img
-                        src="http://localhost/wp-content/uploads/2025/06/cube-icon.png" alt="" class="wp-image-5639"
-                        style="width:60px" /></figure>
+                        src="<?php echo  get_stylesheet_directory_uri() . '/images/cube-icon.png'; ?>" alt=""
+                        class="wp-image-5639" style="width:60px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"top":"16px","bottom":"8px"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-left has-white-color has-text-color"
-                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">2.
-                    Connect to your social networks</h3>
+                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">
+                    <?php esc_html_e( '2.Connect to your social networks', 'ct-startup' ); ?>
+                </h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <p class="has-text-align-left has-white-color has-text-color" style="margin-bottom:0;font-size:14px">
-                    Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi
-                    nec lectus. Nam commodo turpis id lectus scelerisque vulputate.</p>
+                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo minec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                </p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -86,20 +89,21 @@
                 style="border-radius:12px;background-color:#2b5ea9;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px">
                 <!-- wp:image {"id":5638,"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
                 <figure class="wp-block-image aligncenter size-full is-resized"><img
-                        src="http://localhost/wp-content/uploads/2025/06/pencil-icon.png" alt="" class="wp-image-5638"
-                        style="width:60px" /></figure>
+                        src="<?php echo  get_stylesheet_directory_uri() . '/images/pencil-icon.png'; ?>" alt=""
+                        class="wp-image-5638" style="width:60px" /></figure>
                 <!-- /wp:image -->
 
                 <!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"top":"16px","bottom":"8px"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-left has-white-color has-text-color"
-                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">3. Post
-                    your content</h3>
+                    style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">
+                    <?php esc_html_e( '3. Post your content', 'ct-startup' ); ?>
+                </h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <p class="has-text-align-left has-white-color has-text-color" style="margin-bottom:0;font-size:14px">
-                    Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi
-                    nec lectus. Nam commodo turpis id lectus scelerisque vulputate.</p>
+                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo minec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                </p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

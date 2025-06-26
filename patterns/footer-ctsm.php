@@ -22,21 +22,22 @@
             <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
             <div class="wp-block-group">
                 <!-- wp:paragraph {"className":"hover:text-blue-600 cursor-pointer"} -->
-                <p class="hover:text-blue-600 cursor-pointer">About</p>
+                <p class="hover:text-blue-600 cursor-pointer"><?php esc_html_e( 'About', 'ct-startup' ); ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:paragraph {"className":"hover:text-blue-600 cursor-pointer"} -->
-                <p class="hover:text-blue-600 cursor-pointer">Terms of Service</p>
+                <p class="hover:text-blue-600 cursor-pointer"><?php esc_html_e( 'Terms of Service', 'ct-startup' ); ?>
+                </p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:paragraph {"className":"hover:text-blue-600 cursor-pointer"} -->
-                <p class="hover:text-blue-600 cursor-pointer">Privacy Policy</p>
+                <p class="hover:text-blue-600 cursor-pointer"><?php esc_html_e( 'Privacy Policy', 'ct-startup' ); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
 
             <!-- wp:paragraph {"className":"text-neutral-600"} -->
-            <p class="text-neutral-600">Company © 2025</p>
+            <p class="text-neutral-600"><?php esc_html_e( 'Company © 2025', 'ct-startup' ); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

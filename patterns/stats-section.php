@@ -25,12 +25,14 @@
                 style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
                 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"48px","fontWeight":"800","fontStyle":"normal"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color"
-                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">998k+</h3>
+                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">
+                    <?php esc_html_e( '998k+', 'ct-startup' ); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontSize":"14px"},"spacing":{"margin":{"top":"8px"}}},"textColor":"primary"} -->
                 <p class="has-text-align-center has-primary-color has-text-color"
-                    style="margin-top:8px;font-size:14px;text-transform:uppercase">Posts</p>
+                    style="margin-top:8px;font-size:14px;text-transform:uppercase">
+                    <?php esc_html_e( 'Posts', 'ct-startup' ); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->
@@ -40,12 +42,14 @@
                 style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
                 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"48px","fontWeight":"800","fontStyle":"normal"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color"
-                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">1,5k+</h3>
+                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">
+                    <?php esc_html_e( '1.5k+', 'ct-startup' ); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontSize":"14px"},"spacing":{"margin":{"top":"8px"}}},"textColor":"primary"} -->
                 <p class="has-text-align-center has-primary-color has-text-color"
-                    style="margin-top:8px;font-size:14px;text-transform:uppercase">Automations</p>
+                    style="margin-top:8px;font-size:14px;text-transform:uppercase">
+                    <?php esc_html_e( 'Automations', 'ct-startup' ); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->
@@ -55,12 +59,14 @@
                 style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
                 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"48px","fontWeight":"800","fontStyle":"normal"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"white"} -->
                 <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color"
-                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">7,9k</h3>
+                    style="margin-bottom:0;font-size:48px;font-style:normal;font-weight:800">
+                    <?php esc_html_e( '7.9k', 'ct-startup' ); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontSize":"14px"},"spacing":{"margin":{"top":"8px"}}},"textColor":"primary"} -->
                 <p class="has-text-align-center has-primary-color has-text-color"
-                    style="margin-top:8px;font-size:14px;text-transform:uppercase">Dashboards</p>
+                    style="margin-top:8px;font-size:14px;text-transform:uppercase">
+                    <?php esc_html_e( 'Dashboards', 'ct-startup' ); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->
